@@ -20,7 +20,7 @@ ENV COMPOSER_HOME /composer
 ENV PATH $PATH:/composer/vendor/bin
 
 # 作業ディレクトリ設定
-WORKDIR /var/www
+WORKDIR /var/www/laravel-bbs-app
 
 # Laravel インストーラーのインストール
 RUN composer global require "laravel/installer"
