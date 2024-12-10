@@ -52,8 +52,8 @@ services:
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
-      PMA_USER: db-user        # dbサービスのMYSQL_USERと一致させる
-      PMA_PASSWORD: db-pass    # dbサービスのMYSQL_PASSWORDと一致させる
+      PMA_USER: root        # dbサービスのMYSQL_USERと一致させる
+      PMA_PASSWORD: root    # dbサービスのMYSQL_PASSWORDと一致させる
     ports:
       - "8080:80"
     networks:
